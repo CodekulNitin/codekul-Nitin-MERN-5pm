@@ -1,0 +1,13 @@
+img{
+    border-radius: 60%;
+}
+h1{
+    padding-left: 10px;
+}
+table,th,td{
+    border: 1px solid;
+}
+.heading{
+    color: gold;
+    background-color: gray;
+}
