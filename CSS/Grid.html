@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Items</title>
+    <style>
+        .container{
+            border: 2px solid black;
+            background-color: rgb(138, 110, 110);
+            height: 700px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows:163px  1fr 43px ;
+            align-items: center;
+            row-gap: 18px;
+            column-gap: 18px;
+          
+        }
+        .box1{
+            height: 134px;
+            /* width: 134px; */
+            background-color: rgb(210, 199, 214);
+            gap: 10px;
+            grid-column-start: 1;
+            grid-column-end: 4;
+            align-items: center;
+            justify-content: end;
+            align-self: end;
+            text-align: end;
+            display: grid;
+            padding-left: 600px;
+            grid-template-columns: repeat(5,1fr);
+        }
+        .box2{
+            height: 134px;
+            width: 134px;
+            background-color: rgb(75, 19, 204);
+            gap: 10px;
+        }
+        .box3{
+            height: 134px;
+            width: 134px;
+            background-color: rgb(95, 194, 29);
+            gap: 10px;
+        }
+        .box4{
+            height: 134px;
+            width: 134px;
+            background-color: rgb(211, 60, 0);
+            gap: 10px;
+        }
+        .box5{
+            height: 134px;
+            width: 134px;
+            background-color: rgb(211, 0, 0);
+            gap: 10px;
+        }
+        .button{
+            gap:2px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box1">
+        <div>home</div>
+        <div>about</div>
+        <div>contact us</div>
+        <div class="button"><button>log in/sign up</button></div>
+    </div>
+    <div class="box2">2</div>
+    <div class="box3">3</div>
+    <div class="box4">4</div>
+    <div class="box5">5</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+ .container{
+     height: 600px;
+     width: 80%;
+     background-color: gold;
+     margin-left: 20%;
+     padding-top: 10px;
+     
+
+ }
+ .card1{
+    background-color: rgb(216, 238, 195);
+    color: coral;
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+    padding-bottom: 4px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    padding-top: 4px;
+    margin-top: 10px;
+    margin: 30px;
+    margin-left: 180px;
+    padding-left: 20px;
+
+}
+.card2{
+    background-color: rgb(216, 238, 195);
+    color: coral;
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+    padding-top: 4px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin: 30px;
+    margin-top: 30px;
+    margin-left: 150px;
+    padding-left: 20px;
+
+}
+.card3{
+    background-color: rgb(216, 238, 195);
+    /* border: 1px solid black; */
+    color: coral;
+    height: 100px;
+    width: 70%;
+    padding-top: 4px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 10px;
+    margin: 30px;
+    margin-left: 150px;
+    padding-left: 20px;
+}
+.card4{
+    background-color: rgb(216, 238, 195);
+    color: coral;
+    height: 100px;
+    width: 70%;
+    /* border: 1px solid black; */
+    padding-top: 4px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px;
+    margin-top: 10px;
+    margin: 30px;
+    margin-left: 150px;
+    padding-left: 20px;
+}
+#Heading{
+    color: green;
+    margin-left: 150px;
+}

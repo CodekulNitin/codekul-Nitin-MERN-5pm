@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Template</title>
+    <style>
+        .container{
+            height: 900px;
+        }
+        .header {
+
+            display: flex;
+            gap: 20px;
+            justify-content: end;
+            align-self: center;
+            align-items: center;
+            padding-right: 70px;
+            background-color: darkorange;
+        }
+
+        .header2 {
+            display: grid;
+            gap: 2px;
+            padding-top: 10px;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        .box2 {
+
+            height: 650px;
+            width: 400px;
+            display: grid;
+            gap: 20px;
+            background-color: black;
+        }
+
+        .box3,
+    
+        .box5 {
+            border: 2px solid black;
+            height: 240px;
+            width: 270px;
+        }
+
+        .box1 {
+
+            grid-column-start: 1;
+            grid-column-end: 3;
+            width: 900px;
+            height: 400px;
+            margin-left: 80px;
+        }
+
+        .header3 {
+            display: flex;
+            gap: 40px;
+            position: relative;
+            top: -240px;
+            padding-left: 82px;
+        }
+        .box4{
+            position: sticky;
+            overflow: hidden;
+            top: 0;   
+            margin: 8px;
+            padding: 8px;
+            box-shadow: 1px 1px 1px 1px;
+            background-color: grey;   
+            border: 2px solid black;
+            height: 240px;
+            width: 270px;      
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        .logo {
+            padding-right: 950px;
+        }
+
+        #img2 {
+            border-radius: 2px;
+
+        }
+
+        .card1,
+        .card2,
+        .card3,
+        .card4,
+        .card5 {
+            margin: 8px;
+            padding: 8px;
+            box-shadow: 1px 1px 1px 1px;
+            background-color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="	https://cdn-icons-png.flaticon.com/512/831/831378.png" height="68" width="68" alt="">
+            </div>
+            <h4>Home</h4>
+            <h4>About Us</h4>
+            <h4>Contact us</h4>
+            <h4><button>Sign in</button></h4>
+            <h4><button>Log in</button></h4>
+        </div>
+        <div class="header2">
+            <div class="box1"><img id="img2"
+                    src="https://cdn.pixabay.com/photo/2020/04/24/15/58/white-water-lily-5087465_960_720.jpg"
+                    height="400" width="900px" alt=""></div>
+            <div class="box2">
+                <div class="card1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet eos excepturi
+                    debitis qui aut.</div>
+                <div class="card2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nam quam molestias
+                    officia ipsum!</div>
+                <div class="card3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum illo optio
+                    dignissimos deserunt hic?</div>
+                <div class="card4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur eaque ex
+                    impedit ullam dolorum!</div>
+                <div class="card5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam obcaecati
+                    voluptatibus fugit expedita? In?</div>
+
+            </div>
+        </div>
+        <div class="header3">
+            <div class="box3">3</div>
+            <div class="box4">4</div>
+            <div class="box5">5</div>
+        </div>
+        <div class="box5">5</div>
+        <div class="box5">5</div>
+        <div class="box5">5</div>
+        <div class="box5">5</div>
+        <div class="box5">5</div>
+        <div class="box5">5</div>
+    </div>
+</body>
+
+</html>
